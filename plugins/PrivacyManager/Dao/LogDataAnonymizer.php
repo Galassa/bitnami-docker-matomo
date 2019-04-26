@@ -96,7 +96,10 @@ class LogDataAnonymizer
                 }
 
                 if ($anonimizeLocation) {
-                    $location = $geolocator->getLocation(array('ip' => $ipAnonymized->toString()));
+//                      AG changed
+//                    $location = $geolocator->getLocation(array('ip' => $ipAnonymized->toString()));
+
+                    $location = $geolocator->getLocation(array('ip' => $row['user_id']));
 
                     $keys = array(
                         'location_longitude' => LocationProvider::LONGITUDE_KEY,
