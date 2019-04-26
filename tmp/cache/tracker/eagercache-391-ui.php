@@ -1,5 +1,5 @@
 <?php return array (
-  'lifetime' => 1556307999,
+  'lifetime' => 1556313255,
   'data' => 
   array (
     'PluginCorePluginsAdminMetadata' => 
@@ -6550,6 +6550,201 @@
     array (
     ),
     'PluginIntranetGeoIPLocationProviderPiwik\\Plugins\\UserCountry\\LocationProvider' => 
+    array (
+    ),
+    'PluginCorePluginsAdminProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginCoreAdminHomeProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginCoreHomeProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginWebsiteMeasurableProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginIntranetMeasurableProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginDiagnosticsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginCoreVisualizationsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginProxyProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginAPIProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginExamplePluginProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginWidgetizeProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginTransitionsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginLanguagesManagerProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginActionsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginDashboardProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginMultiSitesProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginReferrersProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginUserLanguageProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginDevicesDetectionProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+      '/home/aliened/Work/mana/my-bitnami-docker-matomo/bitnami-docker-matomo/plugins/DevicesDetection/ProfileSummary/DevicesSummary.php' => 'Piwik\\Plugins\\DevicesDetection\\ProfileSummary\\DevicesSummary',
+    ),
+    'PluginGoalsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginEcommerceProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+      '/home/aliened/Work/mana/my-bitnami-docker-matomo/bitnami-docker-matomo/plugins/Ecommerce/ProfileSummary/EcommerceSummary.php' => 'Piwik\\Plugins\\Ecommerce\\ProfileSummary\\EcommerceSummary',
+    ),
+    'PluginSEOProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginEventsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginUserCountryProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+      '/home/aliened/Work/mana/my-bitnami-docker-matomo/bitnami-docker-matomo/plugins/UserCountry/ProfileSummary/LocationSummary.php' => 'Piwik\\Plugins\\UserCountry\\ProfileSummary\\LocationSummary',
+    ),
+    'PluginGeoIp2ProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginVisitsSummaryProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginVisitFrequencyProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginVisitTimeProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginVisitorInterestProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginExampleAPIProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginRssWidgetProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginFeedbackProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginMonologProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginLoginProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginTwoFactorAuthProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginUsersManagerProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginSitesManagerProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginInstallationProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginCoreUpdaterProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginCoreConsoleProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginScheduledReportsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginUserCountryMapProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginLiveProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+      '/home/aliened/Work/mana/my-bitnami-docker-matomo/bitnami-docker-matomo/plugins/Live/ProfileSummary/ImportantVisits.php' => 'Piwik\\Plugins\\Live\\ProfileSummary\\ImportantVisits',
+      '/home/aliened/Work/mana/my-bitnami-docker-matomo/bitnami-docker-matomo/plugins/Live/ProfileSummary/Summary.php' => 'Piwik\\Plugins\\Live\\ProfileSummary\\Summary',
+    ),
+    'PluginCustomVariablesProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+      '/home/aliened/Work/mana/my-bitnami-docker-matomo/bitnami-docker-matomo/plugins/CustomVariables/ProfileSummary/VisitScopeSummary.php' => 'Piwik\\Plugins\\CustomVariables\\ProfileSummary\\VisitScopeSummary',
+    ),
+    'PluginPrivacyManagerProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginImageGraphProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginAnnotationsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginMobileMessagingProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginOverlayProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginSegmentEditorProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginInsightsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginMorpheusProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginContentsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginBulkTrackingProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginResolutionProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginDevicePluginsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginHeartbeatProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginIntlProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginMarketplaceProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginProfessionalServicesProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginUserIdProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginCustomPiwikJsProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
+    array (
+    ),
+    'PluginIntranetGeoIPProfileSummaryPiwik\\Plugins\\Live\\ProfileSummary\\ProfileSummaryAbstract' => 
     array (
     ),
   ),

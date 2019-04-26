@@ -288,7 +288,9 @@ return [
         'networks' => [
             //enter here all subnetworks for this location
             //use a subnetwork calculator, e.g. http://jodies.de/ipcalc
-            '10.6.134.0/24' //10.6.134.0 - 10.6.134.255
+            '10.6.134.0/24', //10.6.134.0 - 10.6.134.255
+            //AG to remove
+            '10.16.238.0/24'
         ]
     ],
 

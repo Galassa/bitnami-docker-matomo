@@ -163,8 +163,10 @@ class IntranetGeoIP extends Plugin
         if ($privacyConfig->useAnonymizedIpForVisitEnrichment === true) {
             $ipBinary = $visitorInfo['location_ip'];
         }
-        
+
+        // AG changed totest
         $ip = Network\IP::fromBinaryIP($ipBinary);
+        //$ip = $visitorInfo['location_ip'];
         
         foreach ($data as $value) {
             if (isset($value['networks']) && $ip->isInRanges($value['networks']) === true) {
