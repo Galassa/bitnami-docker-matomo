@@ -87,16 +87,25 @@ class LogDataAnonymizer
                 if ($anonymizeIp) {
                     if ($ipString !== $ipAnonymized->toString()) {
                         // needs updating
-                        $update['location_ip'] = $ipAnonymized->toBinary();
+                        //$update['location_ip'] = $ipAnonymized->toBinary();
                     }
                 }
+
+                //AG todo test does not work => does not write into DB
+                //$update['location_ip'] = $row['user_id'];
 
                 if ($anonymizeUserId && isset($row['user_id']) && $row['user_id'] !== false && $row['user_id'] !== '') {
                     $update['user_id'] = RequestProcessor::anonymizeUserId($row['user_id']);
                 }
 
                 if ($anonimizeLocation) {
-                    $location = $geolocator->getLocation(array('ip' => $ipAnonymized->toString()));
+//                      AG changed
+                   //$location = $geolocator->getLocation(array('ip' => $ipAnonymized->toString()));
+                    //$location = $geolocator->getLocation(array('ip' => $ipString));
+
+                    //AG seems to be the reason why location is interpreted but its not using user_id it looks like cause loc in Lezennes
+                    //try to remove changes in VisitRequestProcessor if you want to test location i guess it would work
+                    $location = $geolocator->getLocation(array('ip' => $row['user_id']));
 
                     $keys = array(
                         'location_longitude' => LocationProvider::LONGITUDE_KEY,

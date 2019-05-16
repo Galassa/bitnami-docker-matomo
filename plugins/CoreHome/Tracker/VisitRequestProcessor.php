@@ -13,6 +13,7 @@ use Piwik\Date;
 use Piwik\Config;
 use Piwik\EventDispatcher;
 use Piwik\Exception\UnexpectedWebsiteFoundException;
+use Piwik\Network\IPUtils;
 use Piwik\Tracker\Cache;
 use Piwik\Tracker\Request;
 use Piwik\Tracker\RequestProcessor;
@@ -131,8 +132,23 @@ class VisitRequestProcessor extends RequestProcessor
          *
          * @param string &$ip The visitor's IP address.
          */
-        $this->eventDispatcher->postEvent('Tracker.setVisitorIp', array(&$ip));
+  //AG todo test -> seems to make IP = user_id in DB :O BUT i lose location row
+        //todo try to binary it
+//        $this->eventDispatcher->postEvent('Tracker.setVisitorIp', array(&$ip));
 
+        //AG test to replace post event clear by post event normalized
+        //AG TODO TODO TODO
+        $ip = \Piwik\Network\IP::fromStringIP(IPUtils::sanitizeIp($request->getParam('uid')))->toBinary();
+
+
+ //       $this->eventDispatcher->postEvent('Tracker.setVisitorIP', array($request->getParam('uid')));
+        $this->eventDispatcher->postEvent('Tracker.setVisitorIP', array(&$ip));
+
+//AG todo test si doute remove tout IP = user_id in DB :O BUT i lose location row
+//        $visitProperties->setProperty('location_ip', $ip);
+
+        //AG this uncommented line makes this ip as binary
+//        $visitProperties->setProperty('location_ip', $request->getParam('uid'));
         $visitProperties->setProperty('location_ip', $ip);
     }
 
