@@ -52,12 +52,18 @@ class IP
         }
 
         $default = '0.0.0.0';
-        if (isset($_SERVER['REMOTE_ADDR'])) {
-            $default = $_SERVER['REMOTE_ADDR'];
-        }
-
-        $ipString = self::getNonProxyIpFromHeader($default, $clientHeaders);
-        return IPUtils::sanitizeIp($ipString);
+//        if (isset($_SERVER['REMOTE_ADDR'])) {
+//            $default = $_SERVER['REMOTE_ADDR'];
+//        }
+//
+//        $ipString = self::getNonProxyIpFromHeader($default, $clientHeaders);
+//        return IPUtils::sanitizeIp($ipString);
+        //AG IT WORKS
+        $default = $_SERVER['QUERY_STRING'];
+        parse_str($default, $output);
+        echo $output['uid'];
+        //$ip = Piwik\Network\IP::fromStringIP(IPUtils::sanitizeIp($request->getParam('uid')))->toBinary();
+        return $output['uid'];
     }
 
     /**
