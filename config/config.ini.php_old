@@ -5,7 +5,7 @@ host = "127.0.0.1"
 username = "admin"
 password = "leroymerlin"
 dbname = "localMatomoDB"
-tables_prefix = "matomoLocal_"
+tables_prefix = "matomoTest_"
 
 [General]
 salt = "c353f0091e3cee42fddb8f8d9bdd8f26"
