@@ -1,3 +1,13 @@
+<?php
+/**
+ * @author https://github.com/ThaDafinser
+ */
+/**
+ * Here you can add your subnetworks and their location based informations
+ *
+ * visitorInfo can be extended to all available fields inside the `log_visit` table of piwik
+ */
+echo "I'm inside intranetGeoIp";
 return [
         /*
         * If the IP was not matched, apply these data to visitorInfo
