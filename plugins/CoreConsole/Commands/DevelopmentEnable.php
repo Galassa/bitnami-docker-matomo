@@ -24,7 +24,7 @@ class DevelopmentEnable extends ConsoleCommand
     {
         $this->setName('development:enable');
         $this->setAliases(array('development:disable'));
-        $this->setDescription('Enable or disable development mode. See config/global.ini.php in section [Development] for more information');
+        $this->setDescription('Enable or disable development mode. See myConfig/global.ini.php in section [Development] for more information');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)

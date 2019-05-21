@@ -150,7 +150,7 @@ class DbHelper
      * Checks the database server version against the required minimum
      * version.
      *
-     * @see config/global.ini.php
+     * @see myConfig/global.ini.php
      * @since 0.4.4
      * @throws Exception if server version is less than the required version
      */

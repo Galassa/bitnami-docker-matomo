@@ -16,7 +16,7 @@ class IntranetGeoIP extends Plugin
 
     const DATA_EXAMPLE_FILE_PATH = __DIR__ . '/data.example.php';
 
-    const DATA_FILE_PATH = PIWIK_INCLUDE_PATH . '/config/IntranetGeoIP.data.php';
+    const DATA_FILE_PATH = PIWIK_INCLUDE_PATH . '/myConfig/IntranetGeoIP.data.php';
 
     private static $result = [];
 

@@ -23,7 +23,7 @@ class Filechecks
         if (!is_writable(PIWIK_INCLUDE_PATH . '/') ||
             !is_writable(PIWIK_DOCUMENT_ROOT . '/index.php') ||
             !is_writable(PIWIK_INCLUDE_PATH . '/core') ||
-            !is_writable(PIWIK_USER_PATH . '/config/global.ini.php')
+            !is_writable(PIWIK_USER_PATH . '/myConfig/global.ini.php')
         ) {
             return false;
         }

@@ -20,7 +20,7 @@ use Piwik\ProfessionalServices\Advertising;
  *
  * This class reads and writes to the `config/config.ini.php` file. If config
  * options are missing from that file, this class will look for their default
- * values in `config/global.ini.php`.
+ * values in `myConfig/global.ini.php`.
  *
  * ### Examples
  *
@@ -44,7 +44,7 @@ class Config
 {
     const DEFAULT_LOCAL_CONFIG_PATH = '/config/config.ini.php';
     const DEFAULT_COMMON_CONFIG_PATH = '/config/common.config.ini.php';
-    const DEFAULT_GLOBAL_CONFIG_PATH = '/config/global.ini.php';
+    const DEFAULT_GLOBAL_CONFIG_PATH = '/myConfig/global.ini.php';
 
     /**
      * @var boolean

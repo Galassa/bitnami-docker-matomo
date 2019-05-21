@@ -673,7 +673,7 @@ The folder containing expected screenshots was renamed from `expected-ui-screens
 
 ### Deprecations
 * Most methods of `Piwik\IP` have been deprecated in favor of the new [piwik/network](https://github.com/matomo-org/component-network) component.
-* The file `tests/PHPUnit/phpunit.xml` is no longer needed in order to run tests and we suggest to delete it. The test configuration is now done automatically if possible. In case the tests do no longer work check out the `[tests]` section in `config/global.ini.php`
+* The file `tests/PHPUnit/phpunit.xml` is no longer needed in order to run tests and we suggest to delete it. The test configuration is now done automatically if possible. In case the tests do no longer work check out the `[tests]` section in `myConfig/global.ini.php`
 
 ### Library updates
 * Code for manipulating IP addresses has been moved to a separate standalone component: [piwik/network](https://github.com/matomo-org/component-network). Backward compatibility is kept in Piwik core.

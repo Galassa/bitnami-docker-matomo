@@ -224,7 +224,7 @@ class Updater
     private function verifyDecompressedArchive($extractedArchiveDirectory)
     {
         $someExpectedFiles = array(
-            '/config/global.ini.php',
+            '/myConfig/global.ini.php',
             '/index.php',
             '/core/Piwik.php',
             '/piwik.php',

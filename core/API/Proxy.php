@@ -132,7 +132,7 @@ class Proxy
      * it will throw an exception
      *
      * It also logs the API calls, with the parameters values, the returned value, the performance, etc.
-     * You can enable logging in config/global.ini.php (log_api_call)
+     * You can enable logging in myConfig/global.ini.php (log_api_call)
      *
      * @param string $className The class name (eg. API)
      * @param string $methodName The method name
