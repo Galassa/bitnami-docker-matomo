@@ -52,6 +52,7 @@ class IP
         }
 
         $default = '0.0.0.0';
+        //AG changed try to get uid param instead of REMOTE_ADDR
 //        if (isset($_SERVER['REMOTE_ADDR'])) {
 //            $default = $_SERVER['REMOTE_ADDR'];
 //        }
