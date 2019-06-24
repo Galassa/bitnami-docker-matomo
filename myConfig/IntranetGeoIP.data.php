@@ -623,7 +623,7 @@ return [
         'location_longitude' => '2.2940379',
     ],
         'networks' =>
-            ['10.120.144.0/24']
+            ['10.121.72.0/24']
 
     ],
     [   'visitorInfo' => [
@@ -1217,7 +1217,11 @@ return [
         'location_longitude' => '4.89211067205258',
     ],
         'networks' =>
-            ['10.121.132.0/24']
+            ['10.6.154.0/24',
+            '10.16.178.128/27',
+            '10.16.181.80/29',
+            '10.16.181.160/25',
+            '10.2.1.0/25',]
 
     ],
     [   'visitorInfo' => [
@@ -1638,6 +1642,138 @@ return [
             ['10.121.44.0/24']
 
     ],
+
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'B9',
+        'location_city' => 'Chalons',
+        'location_latitude' => '48.9655528',
+        'location_longitude' => '4.3100123',
+    ],
+        'networks' =>
+            ['10.6.197.95/32',
+		'10.6.197.96/27',
+		'10.6.197.128/26',
+		'10.6.197.192/27',
+		'10.6.197.224/28',
+		'10.6.197.240/29',
+		'10.6.197.248/30',
+    '10.6.197.0/24',]
+
+    ],
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'B4',
+        'location_city' => 'Dourges',
+        'location_latitude' => '50.4378207',
+        'location_longitude' => '2.9500256',
+    ],
+        'networks' =>
+            ['10.6.125.0/24',
+            '10.6.122.0/24',]
+
+    ],
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'B4',
+        'location_city' => 'Dourges 2',
+        'location_latitude' => '50.4341708',
+        'location_longitude' => '2.9446099',
+    ],
+        'networks' =>
+            ['10.6.134.0/24']
+
+    ],
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'B4',
+        'location_city' => 'Libercourt',
+        'location_latitude' => '50.4834601',
+        'location_longitude' => '2.9855514',
+    ],
+        'networks' =>
+            ['10.2.1.32/27',
+		'10.2.1.64/27',
+    '10.6.105.0/24', //10.6.105.0 - 10.6.105.255
+    '10.16.179.0/26', //10.16.179.0 - 10.16.179.63 !!!!
+    '10.16.181.64/26', //10.16.181.64 - 10.16.181.127
+    '10.2.22.0/24', //10.2.22.0 - 10.2.22.255
+    '10.2.23.0/24', //10.2.23.0 - 10.2.23.255
+    '10.6.34.0/24' //10.6.34.0 - 10.6.34.255]
+
+    ],
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'A8',
+        'location_city' => 'Ile de France',
+        'location_latitude' => '48.6753527',
+        'location_longitude' => '1.3814309',
+    ],
+        'networks' =>
+            ['10.6.36.0/24', //10.6.36.0 - 10.6.36.255
+            '10.6.37.0/24']
+
+    ],
+
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'B3',
+        'location_city' => 'Mazères',
+        'location_latitude' => '3.2319181',
+        'location_longitude' => '1.6081411',
+    ],
+        'networks' =>
+            ['10.6.230.0/24', //10.6.230.0 - 10.6.230.255
+            '10.6.231.0/24', //10.6.231.0 - 10.6.231.255
+            '10.2.2.0/25']
+
+    ],
+
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'B5',
+        'location_city' => 'Saint Léger',
+        'location_latitude' => '45.4575547',
+        'location_longitude' => '0.0269829',
+    ],
+        'networks' =>
+            ['10.6.128.0/24']
+
+    ],
+
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'A8',
+        'location_city' => 'Réau',
+        'location_latitude' => '48.6076477',
+        'location_longitude' => '2.5899025',
+    ],
+        'networks' =>
+            ['10.6.52.0/24',
+            '10.6.53.0/24']
+
+    ],
+
+    [   'visitorInfo' => [
+        'location_country' => 'fr',
+        'location_region' => 'B8',
+        'location_city' => 'Grans',
+        'location_latitude' => '43.6172156',
+        'location_longitude' => '5.008072',
+    ],
+        'networks' =>
+            ['10.6.138.0/24']
+
+    ],
+
     [   'visitorInfo' => [
         'location_country' => 'fr',
         'location_region' => 'A5',
